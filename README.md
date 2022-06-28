@@ -1,6 +1,6 @@
 # Advice Generator App
 
-![Design preview for the Advice Generator App coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Advice Generator App coding challenge](./design/desktop-design.jpg)
 
 ### The challenge
 
