@@ -17,7 +17,7 @@ Users should be able to:
 - Vanilla Javascript
 - Advice Slip JSON API
 
-## Author
+## Author & Designer
 
 - Website - [Angely](https://www.github.com/angelydy)
 - Behance - [@angelydy](https://www.behance.net/angelydy)
