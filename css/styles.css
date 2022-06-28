@@ -1,0 +1,14 @@
+body {
+  background-color: #333333;
+  background-image: url("../images/pattern-bg-desktop.svg");
+}
+
+body .attribution {
+  color: #ffffff;
+  text-align: center;
+}
+
+body .attribution a {
+  color: #ffffff;
+}
+/*# sourceMappingURL=styles.css.map */

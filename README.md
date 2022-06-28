@@ -2,7 +2,7 @@
 
 ![Design preview for the Advice Generator App coding challenge](./design/desktop-design.jpg)
 
-### The challenge
+## The challenge
 
 Users should be able to:
 
