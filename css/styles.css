@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;800&display=swap");
 body {
-  background-color: #223946;
+  background-color: #17262f;
   background-image: url("../images/pattern-bg-desktop.svg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -31,6 +31,17 @@ body .adviceContainer {
 body .adviceContainer #adviceQuote {
   padding: 1em;
   font-size: 1.1rem;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .adviceContainer #adviceId {
@@ -65,6 +76,10 @@ body .randomBtn:hover {
 
 body .attribution {
   color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   text-align: center;
   opacity: 30%;
 }

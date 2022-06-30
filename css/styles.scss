@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;800&display=swap');
 body {
-  background-color: #223946; 
+  background-color: #17262f; 
   background-image: url("../images/pattern-bg-desktop.svg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -24,6 +24,11 @@ body {
     #adviceQuote {
       padding: 1em;
       font-size: 1.1rem;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      align-items: center;
     }
 
     #adviceId {
@@ -53,6 +58,10 @@ body {
 
   .attribution {
     color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     text-align: center;
     opacity: 30%;
 
