@@ -5,8 +5,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Poppins', sans-serif;
-  animation: load 10s;
-  transition: 4s ease-in-out;
+  transition: 2s ease-in-out;
 
   .adviceContainer {
     width: 30rem;
@@ -19,10 +18,12 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0px 4px 200px 10px rgba(187, 212, 218, 0.5), 8px 11px 18px rgba(0, 0, 0, 0.25);
+    animation: fromTop 2s;
+    animation-delay: 1s;
 
     #adviceQuote {
-      padding-top: 1em;
-      font-size: 1.3rem;
+      padding: 1em;
+      font-size: 1.1rem;
     }
 
     #adviceId {
@@ -39,6 +40,8 @@ body {
     top: 65%;
     transform: translate(-65%, -50%);
     transition: 0.5s ease-in-out;
+    animation: fromTop 2s;
+    animation-delay: 1s;
 
     &:hover {
       cursor: pointer;
@@ -70,6 +73,14 @@ body {
       opacity: 0;
     }
     100% {
-      opacity: 100%;
+      opacity: 1;
     }
+}
+
+@keyframes fromTop{
+  0% {
+    position: absolute;
+    top: -50%;
+    left: 50%;
+  }
 }
