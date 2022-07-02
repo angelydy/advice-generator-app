@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;800&display=swap');
+@import 'mediaQuery';
+
 body {
   background-color: #17262f; 
   background-image: url("../images/pattern-bg-desktop.svg");
@@ -91,5 +93,22 @@ body {
     position: absolute;
     top: -50%;
     left: 50%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 900px) {
+  
+  body {
+    background-image: none;
+    font-size: 1em;
+
+    .adviceContainer {
+      max-width: 95%;
+      height: auto;
+    }
+
+    #adviceQuote {
+      margin: 0;
+    }
   }
 }
