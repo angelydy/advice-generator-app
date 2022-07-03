@@ -2,11 +2,14 @@
 
 body {
   background-color: #17262f; 
-  background-image: url("../images/pattern-bg-desktop.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../images/bg.jpg");
   font-family: 'Poppins', sans-serif;
   transition: 2s ease-in-out;
+  background-blend-mode: overlay;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
   .adviceContainer {
     width: 30rem;
@@ -97,6 +100,7 @@ body {
 
 @media only screen and (min-width: 320px) and (max-width: 900px) {
   body {
+    background-color: #0f181e;
     background-image: none;
     font-size: 1em;
 
@@ -106,10 +110,6 @@ body {
 
     #adviceQuote {
       margin: 0;
-    }
-
-    .randomBtn {
-      
     }
   }
 }

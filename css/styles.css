@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;800&display=swap");
 body {
   background-color: #17262f;
-  background-image: url("../images/pattern-bg-desktop.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../images/bg.jpg");
   font-family: 'Poppins', sans-serif;
   -webkit-transition: 2s ease-in-out;
   transition: 2s ease-in-out;
+  background-blend-mode: overlay;
+  background-size: cover;
 }
 
 body .adviceContainer {
@@ -131,6 +131,7 @@ body .attribution a {
 
 @media only screen and (min-width: 320px) and (max-width: 900px) {
   body {
+    background-color: #0f181e;
     background-image: none;
     font-size: 1em;
   }
