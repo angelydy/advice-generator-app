@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;800&display=swap');
-@import 'mediaQuery';
 
 body {
   background-color: #17262f; 
@@ -44,8 +43,8 @@ body {
     width: 3rem;
     position: absolute;
     left: 50%;
-    top: 65%;
-    transform: translate(-65%, -50%);
+    bottom: 0;
+    transform: translate(-50%, 50%);
     transition: 0.5s ease-in-out;
     animation: fromTop 2s;
     animation-delay: 1s;
@@ -97,18 +96,20 @@ body {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 900px) {
-  
   body {
     background-image: none;
     font-size: 1em;
 
     .adviceContainer {
       max-width: 95%;
-      height: auto;
     }
 
     #adviceQuote {
       margin: 0;
+    }
+
+    .randomBtn {
+      
     }
   }
 }
