@@ -16,9 +16,8 @@ Users should be able to:
 - CSS/SASS
 - Vanilla Javascript
 - Advice Slip JSON API
-- 3D Abstract Background Image(https://www.pexels.com/photo/person-in-black-shirt-walking-on-sand-8347501/)
 
-## Author & Designer
+## Author
 
 - Website - [Angely](https://www.github.com/angelydy)
 - Behance - [@angelydy](https://www.behance.net/angelydy)
