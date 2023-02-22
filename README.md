@@ -19,6 +19,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Angely](https://www.github.com/angelydy)
+- Website - [Angely](https://www.angelydy.com)
 - Behance - [@angelydy](https://www.behance.net/angelydy)
 - Dribbble - [@angelydy](https://www.dribbble.com/angelydy)
